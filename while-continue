@@ -1,3 +1,4 @@
+# 用while实现
 number = 0
 while number < 100:
     number = number + 1
@@ -5,3 +6,17 @@ while number < 100:
         continue
     if number % 2 ==1:
         print(number)
+
+
+for number in range(1, 101):
+    if number==49:
+        continue
+    elif number%2==1:
+        print(number)
+
+
+＃ 用for 实现
+
+# break：强行退出整个循环，不再执行循环过程中的剩余语句和剩余循环轮次。
+
+# continue：只结束本轮循环，而不是结束整个循环，也就是只有本轮循环不再执行，会直接跳到下一轮的循环过程。
